@@ -8,7 +8,13 @@ def multiply(x, y):
     return x * y
 
 def divide(x, y):
-    return x / y
+    if(y == 0):
+        print("Bölen 0 olamaz 2. değişkeni değiştirin") #koşul eklendi
+        y = input("Yeni değişken")
+        y = int(y)
+        return x / y
+    else:
+        return x / y
 
 print("Yapmak istediğiniz işlemi seçin:")
 print("1. Toplama")
