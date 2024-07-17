@@ -38,8 +38,9 @@ elif choice == '2':
 elif choice == '3':
     print(f"{num1} * {num2} = {multiply(num1, num2)}")
 
-elif choice == '4':
-    print(f"{num1} / {num2} = {divide(num1, num2)}")
-
+elif choice == '4': #murat                              
+    print(bravo)
+    print("division") #murat
+    print("aferin")
 else:
     print("yanlis") #değiştirdim
