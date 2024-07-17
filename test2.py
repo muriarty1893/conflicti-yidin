@@ -7,6 +7,7 @@ def subtract(x, y):
 def multiply(x, y):
     return x * y
 
+#daha da gelişmiş bir branch
 def divide(x, y):
     if(y == 0):
         print("bölen sayıyı 0 yapamazsınız (┬┬﹏┬┬) ") #koşul eklendi #murat
