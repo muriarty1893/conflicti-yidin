@@ -7,10 +7,11 @@ def subtract(x, y):
 def multiply(x, y):
     return x * y
 
+#daha da gelişmiş bir branch
 def divide(x, y):
     if(y == 0):
-        print("bölen sayıyı 0 yapamazsınız (┬┬﹏┬┬) ") #koşul eklendi #murat
-        print("2 kere düşün")
+        print("bölen sayıyı 0 yapamazsınız (┬┬﹏┬┬) ") #koşul eklendi burası benim alanım
+        print("2 kere düşün") # alan 2
         y = input("Yeni değişken")
         y = int(y)
     return x / y    
@@ -38,9 +39,8 @@ elif choice == '2':
 elif choice == '3':
     print(f"{num1} * {num2} = {multiply(num1, num2)}")
 
-elif choice == '4': #murat                              
-    print(bravo)
-    print("division") #murat
-    print("aferin")
+elif choice == '4': # yorum satiri cacıki
+    print(f"{num1} / {num2} = {divide(num1, num2)}")
+
 else:
     print("yanlis") #değiştirdim
