@@ -9,7 +9,7 @@ def multiply(x, y):
 
 def divide(x, y):
     if(y == 0):
-        print("Bölen 0 olamaz 2. değişkeni değiştirin") #koşul eklendi
+        print("Bölen 0 olamaz 2. değişkeni değiştirin") #koşul eklendi v2
         y = input("Yeni değişken")
         y = int(y)
         return x / y
