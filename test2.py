@@ -15,11 +15,14 @@ print("1. Toplama")
 print("2. Çıkarma")
 print("3. Çarpma")
 print("4. Bölme")
+print("orrayt") #ekledim
 
 choice = input("Seçiminizi yapın (1/2/3/4): ")
 
 num1 = float(input("Birinci sayıyı girin: "))
 num2 = float(input("İkinci sayıyı girin: "))
+
+print("sayıları girdiniz") #ekledim
 
 if choice == '1':
     print(f"{num1} + {num2} = {add(num1, num2)}")
@@ -34,4 +37,4 @@ elif choice == '4':
     print(f"{num1} / {num2} = {divide(num1, num2)}")
 
 else:
-    print("Geçersiz giriş")
+    print("yanlis") #değiştirdim
