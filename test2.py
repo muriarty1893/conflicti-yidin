@@ -8,10 +8,7 @@ def multiply(x, y):
     return x * y
 
 def divide(x, y):
-    if y == 0:
-        return "Hata! Bir sayıyı sıfıra bölemezsiniz."
-    else:
-        return x / y
+    return x / y
 
 print("Yapmak istediğiniz işlemi seçin:")
 print("1. Toplama")
